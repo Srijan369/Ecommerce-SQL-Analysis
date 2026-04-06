@@ -1,4 +1,4 @@
-# 📊 E-commerce Data Analysis using SQL
+# 📊 E-commerce Data Analysis using SQL & Power BI
 
 ## 🎯 Project Overview
 
