@@ -1,157 +1,103 @@
-# 📊 E-commerce Data Analysis using SQL & Power BI
+# 📊 Sales Performance Analysis & Dashboard
 
-## 🎯 Project Overview
+## 📌 Project Overview
+This project focuses on analyzing sales data to generate meaningful insights using SQL and Power BI. The dashboard helps in understanding sales performance, identifying trends, and evaluating product and customer behavior.
 
-This is an end-to-end **Data Analysis Project** using **SQL Server (SSMS)** and **Power BI**.
-The project focuses on analyzing retail business data to generate actionable insights on **sales, profit, customers, and product performance**.
+---
+
+## 🎯 Objectives
+- Analyze overall sales and profit performance  
+- Identify top-performing products and customers  
+- Evaluate trends over time  
+- Detect loss-making areas  
+- Support data-driven business decision-making  
 
 ---
 
 ## 🛠️ Tools & Technologies
-
-* **SQL Server (SSMS)** – Database design, data modeling, and analysis
-* **Power BI** – Data visualization and dashboard creation
-* **DAX** – Calculated measures and KPIs
-* **CSV Dataset** – Superstore sales dataset
+- SQL (SQL Server)  
+- Power BI  
+- Data Cleaning & Data Analysis  
 
 ---
 
-## 🗄️ Database Design
-
-A normalized database schema was created to improve performance and scalability.
-
-### Tables:
-
-* **Customers**
-* **Products**
-* **Locations**
-* **Orders (Fact Table)**
-
-✔ Implemented **Primary Keys & Foreign Keys**
-✔ Added **Indexes for performance optimization** 
+## 📂 Dataset
+The dataset contains:
+- Order details (Order ID, Date)  
+- Customer information  
+- Product details  
+- Sales and Profit values  
+- Regional and category data  
 
 ---
 
-## 📥 Data Import Process
+## ⚙️ Project Workflow
 
-* Imported raw dataset into **staging table**
-* Cleaned and transformed data
-* Loaded into dimension and fact tables
-
-### Key Steps:
-
-1. Bulk insert CSV into staging table
-2. Populate dimension tables (Customers, Products, Locations)
-3. Load cleaned data into Orders table
-4. Handle duplicates using ROW_NUMBER()
-
-✔ Ensured data validation and consistency 
+### 1. Data Preparation (SQL)
+- Designed database structure (customers, products, orders, locations)  
+- Performed data cleaning and transformation  
+- Used SQL queries (JOIN, GROUP BY, ROW_NUMBER)  
 
 ---
 
-## 📊 SQL Analysis (Business KPIs)
-
-Performed advanced SQL analysis including:
-
-* 📈 Total Sales, Profit, Profit Margin
-* 🛍️ Sales & Profit by Category
-* 🏆 Top 10 Best Selling Products
-* 📉 Loss-Making Products
-* 🌍 Regional Performance
-* 👥 Customer Segment Analysis
-* 📅 Monthly & Yearly Trends
-* 🎯 Discount Impact Analysis
-* 🔁 Customer Retention Analysis
-* 🏙️ City & State Performance
-
-✔ Created reusable **Power BI View**:
-
-* `vw_powerbi_sales` for dashboard integration 
+### 2. Data Analysis
+- Created KPI queries for:
+  - Total Sales  
+  - Total Profit  
+  - Profit Margin  
+- Analyzed customer behavior and product performance  
 
 ---
 
-## 📊 Power BI Dashboard
-
-The dashboard is divided into **3 main pages**:
-
----
-
-### 📍 Page 1: Executive Overview
-
-* Total Sales, Profit, Quantity, Profit Margin
-* Sales Trend Over Time
-* Sales by Category & Region
-* Profit/Loss by Subcategory
-* Sales vs Profit Analysis
-
-👉 Provides quick business performance insights
+### 3. Dashboard Development (Power BI)
+- Built interactive dashboard to visualize insights  
+- Created KPI cards for key metrics  
+- Added filters for better data exploration  
 
 ---
 
-### 👥 Page 2: Customer & Segment Analysis
-
-* Total Customers & Avg Metrics
-* Sales & Profit by Segment
-* Top 10 Customers
-* Customer Profitability Analysis
-* Repeat vs One-time Customers
-
-👉 Helps understand customer behavior
+## 📊 Dashboard Features
+- Total Sales, Profit, and Profit Margin (KPIs)  
+- Sales by Region  
+- Sales by Category  
+- Monthly Sales Trend  
+- Top Products by Sales  
+- Profit Analysis  
 
 ---
 
-### 📦 Page 3: Product & Profit Analysis
-
-* Top & Loss-making Products
-* Sales by Subcategory (Treemap)
-* Quantity Sold Analysis
-* Discount Impact on Profit
-* Detailed Product Table
-
-👉 Identifies profitable and risky products
+## 🔍 Key Insights
+- Certain products and categories generate higher revenue  
+- Discounts can negatively impact profit margins  
+- Sales performance varies across regions  
+- Some products contribute to losses  
 
 ---
 
-## 📌 Key Insights
-
-* Some subcategories generate high sales but low profit
-* High discounts negatively impact profitability
-* A small group of customers contributes major revenue
-* Certain products consistently generate losses
-* Sales show a steady growth trend over time
+## 💡 Business Impact
+- Helps identify high-performing products and regions  
+- Supports pricing and discount strategy decisions  
+- Enables better inventory and sales planning  
+- Improves overall business performance understanding  
 
 ---
 
-## 🚀 Features
+## 📸 Dashboard Preview
 
-* Interactive filters (Region, Segment, Category, Date)
-* Dynamic KPIs using DAX
-* Clean and professional UI
-* Business-focused insights
+<img width="1290" height="730" alt="image" src="https://github.com/user-attachments/assets/87f80af0-38b8-4788-ac23-a66eedaf2237" />
 
----
+<img width="1292" height="734" alt="image" src="https://github.com/user-attachments/assets/23697ab8-bccf-4ff3-af14-2d9bae9d64d8" />
 
-## 📷 Dashboard Preview
+<img width="1290" height="734" alt="image" src="https://github.com/user-attachments/assets/172357b7-1d7f-483e-b151-c0adba627b5b" />
 
-<img width="1292" height="730" alt="image" src="https://github.com/user-attachments/assets/16de6579-45ed-4b1c-893b-4efea084ca42" />
-
-<img width="1288" height="733" alt="image" src="https://github.com/user-attachments/assets/5a301e73-33d4-45ca-88c0-1a78870d7d55" />
 
 ---
 
-## 🎯 Conclusion
-
-This project demonstrates:
-
-* Strong SQL skills (data modeling + analysis)
-* Power BI dashboard development
-* Business understanding and insight generation
+## 🚀 Conclusion
+This project provides a clear understanding of sales performance using data analysis and visualization. It helps businesses make informed decisions based on data-driven insights.
 
 ---
 
-## 💼 Author
-
-**Srijan Yadav**
-Aspiring Data Analyst | Python & Power BI Enthusiast
-
----
+## 👤 Author
+Srijan Yadav  
+Aspiring Data Analyst
