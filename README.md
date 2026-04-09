@@ -1,84 +1,91 @@
-# 📊 Sales Performance Analysis & Dashboard
+# 📊 Sales Performance Analysis Dashboard
 
-## 📌 Project Overview
-This project focuses on analyzing sales data to generate meaningful insights using SQL and Power BI. The dashboard helps in understanding sales performance, identifying trends, and evaluating product and customer behavior.
+## 🎯 Project Overview
 
----
-
-## 🎯 Objectives
-- Analyze overall sales and profit performance  
-- Identify top-performing products and customers  
-- Evaluate trends over time  
-- Detect loss-making areas  
-- Support data-driven business decision-making  
+This project is an interactive **Power BI dashboard** built to analyze sales performance and business insights.  
+It provides a clear understanding of **sales trends, profit analysis, customer behavior, and product performance** to support data-driven decision-making.
 
 ---
 
 ## 🛠️ Tools & Technologies
-- SQL (SQL Server)  
-- Power BI  
-- Data Cleaning & Data Analysis  
+
+- **Power BI** – Data Visualization & Dashboard Development  
+- **DAX (Data Analysis Expressions)** – Measures and calculations  
+- **Data Cleaning** – Handling missing values and formatting  
 
 ---
 
-## 📂 Dataset
-The dataset contains:
-- Order details (Order ID, Date)  
-- Customer information  
-- Product details  
-- Sales and Profit values  
-- Regional and category data  
+## 📂 Dataset Details
+
+The dataset includes:
+
+- Orders: Order ID, Order Date, Ship Date  
+- Customers: Customer Name, Segment  
+- Products: Product Name, Category, Subcategory  
+- Location: Region, City, State, Country  
+- Metrics: Sales, Profit, Quantity, Discount, Profit Margin  
 
 ---
 
-## ⚙️ Project Workflow
+## 📊 Dashboard Structure
 
-### 1. Data Preparation (SQL)
-- Designed database structure (customers, products, orders, locations)  
-- Performed data cleaning and transformation  
-- Used SQL queries (JOIN, GROUP BY, ROW_NUMBER)  
+### 🔹 Page 1: Sales Overview
 
----
+- Total Sales, Profit, Quantity, Profit Margin  
+- Sales trend over time  
+- Sales by category and region  
+- Profit analysis by subcategory  
 
-### 2. Data Analysis
-- Created KPI queries for:
-  - Total Sales  
-  - Total Profit  
-  - Profit Margin  
-- Analyzed customer behavior and product performance  
+👉 **Purpose:** Understand overall sales performance  
 
 ---
 
-### 3. Dashboard Development (Power BI)
-- Built interactive dashboard to visualize insights  
-- Created KPI cards for key metrics  
-- Added filters for better data exploration  
+### 🔹 Page 2: Customer Analysis
+
+- Total customers and average sales  
+- Sales & profit by segment  
+- Top customers analysis  
+- Repeat vs one-time customers  
+
+👉 **Purpose:** Analyze customer behavior and contribution  
 
 ---
 
-## 📊 Dashboard Features
-- Total Sales, Profit, and Profit Margin (KPIs)  
-- Sales by Region  
-- Sales by Category  
-- Monthly Sales Trend  
-- Top Products by Sales  
-- Profit Analysis  
+### 🔹 Page 3: Product & Profit Analysis
+
+- Sales by subcategory  
+- Top profitable products  
+- Loss-making products  
+- Discount impact on profit  
+
+👉 **Purpose:** Identify profitable and loss-making products  
 
 ---
 
-## 🔍 Key Insights
-- Certain products and categories generate higher revenue  
-- Discounts can negatively impact profit margins  
+## 📈 Key Insights
+
+- High discounts reduce overall profit despite strong sales  
+- A small group of customers contributes significantly to revenue  
+- Some subcategories consistently generate losses  
 - Sales performance varies across regions  
-- Some products contribute to losses  
 
 ---
 
-## 💡 Business Impact
-- Helps identify high-performing products and regions  
-- Supports pricing and discount strategy decisions  
-- Enables better inventory and sales planning  
-- Improves overall business performance understanding  
+## 💡 Business Recommendations
+
+- Optimize discount strategy to improve profit margins  
+- Focus on high-margin and top-performing products  
+- Reduce losses from underperforming categories  
+- Target high-value and repeat customers  
+
+---
+
+## 🎨 Features
+
+- Interactive dashboard with slicers and filters  
+- Clean and user-friendly design  
+- KPI cards for quick insights  
+- Multiple visualizations for deep analysis  
 
 ---
 
@@ -94,10 +101,12 @@ The dataset contains:
 ---
 
 ## 🚀 Conclusion
-This project provides a clear understanding of sales performance using data analysis and visualization. It helps businesses make informed decisions based on data-driven insights.
+
+This dashboard provides a comprehensive view of sales performance and helps businesses make informed decisions by identifying trends, risks, and opportunities.
 
 ---
 
-## 👤 Author
-Srijan Yadav  
+## 📌 Author
+
+**Srijan Yadav**  
 Aspiring Data Analyst
